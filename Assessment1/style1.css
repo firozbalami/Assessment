@@ -1,0 +1,685 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* here starts css for home */
+#head{
+    background-image: url('images/foggy-24.png  ');
+    background-repeat: no-repeat;
+    height: auto;
+    background-size: cover;
+    padding: 30px;
+}
+.nav{
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    height: 100px;
+    justify-content: space-between;
+}
+.navimg{
+    cursor: pointer;
+}
+.navlist ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+.navlist ul li{
+    padding: 10px;
+    list-style-type: none;
+    cursor: pointer;
+}
+.navlist a{ 
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    font-weight:600;
+    letter-spacing: 1px;
+}
+.content{
+    text-align: center;
+    padding: 140px;
+    color:white;
+}
+.cotent1, .content2, .content3{
+    padding: 10px;
+}
+.content1 h6{
+    font-weight: 100;
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+.content2 h1{
+    letter-spacing: 2px;
+    font-size:45px;
+
+}
+.content3 p{
+    font-size: 17px;
+    color: rgb(233, 227, 227);
+}
+.button{
+    display: flex;
+    justify-content: center;
+}
+.button input{
+    margin:10px;
+    padding:15px;
+    border-radius: 30px;
+    font-size: 15px;
+    letter-spacing: 3px;
+    border: 5px  white;
+}
+#aboutus{
+    background-color: white;
+    color: yellowgreen;
+}
+#aboutus:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+#joinus{
+    background-color: yellowgreen;
+    color:white;
+}
+#joinus:hover{
+    cursor: pointer;
+    background-color: black;
+}
+/* here ends css for home */
+
+/* here starts css for aboutus */
+#aboutUs{
+    height: 850px;
+    padding: 60px;
+}
+.about{
+    padding: 10px;
+    text-align: center;
+}
+.about1{
+    display: flex;
+    width: 100%;
+    height: 500px;
+}
+.aboutus1 h3{
+    color: yellowgreen;
+    font-size: 22px;
+    font-weight: 700;
+}
+.aboutus2{
+    padding: 8px;
+}   
+.aboutus3{
+    padding: 30px;
+}
+.aboutus3 p{
+    color:rgb(71, 71, 71) ;
+    font-size: 17px;
+    letter-spacing: 2px;
+}
+.about1{
+    padding: 10px;
+    display: flex;
+}
+.about-img img{
+    width:89%;
+    height: 500px;
+    padding-left: 30px;
+}
+.about2-content{
+    text-align: justify;
+}
+.about2-content h3{
+    font-size: 21px;
+    color: yellowgreen;
+}
+.about2-content h2{
+    font-size: 29px;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+/* here ends css for aboutus */
+
+/* here starts css for service */
+#service{
+    background-image: url('images/121541.jpg');
+    background-repeat: no-repeat;
+    height: 800px   ;
+    background-size: cover;
+    padding: 50px;
+}
+.service1{
+    display: flex;
+    padding: 20px;
+    align-items: center;
+}
+.serrvice-para{
+    padding:10px;
+}
+.service-para p{
+    color:white ;
+    letter-spacing: 1px;
+    padding: 20px;
+    font-size: 17px;
+    text-align: right;
+}
+.service2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px;
+}
+.service-para1 h2{
+    color:greenyellow ;
+    font-size: 22px;
+}
+.service-para1 h1{
+    color:white;
+    font-size: 40px;
+    font-weight: 200;
+}
+.service3{
+    background-color: white;
+    text-align: center;
+    padding: 50px;
+    margin: 10px;
+}
+.service3 h2{
+    color:yellowgreen;
+    padding: 15px;
+}
+.service3 p{
+    color:rgb(71, 71, 71) ;
+    font-size: 18px;
+    letter-spacing: 1px;
+    padding: 10px;
+}
+/* here ends css for services */
+ 
+/* here starts css for gallery */
+.gallery1{
+    display: flex;
+    padding: 30px;
+    align-items: center;
+}
+.gallery-para{
+    text-align: left;
+    padding-left: 400px;
+}
+.gallery-para h3{
+    color: yellowgreen;
+    font-size:22px;
+    letter-spacing: 1px;
+    text-align: right;
+}
+.gallery-para h1{
+    letter-spacing: 1px;
+    font-size: 37px;
+    font-weight: 500;
+}
+.gallery-para1 p{
+    color:rgb(71, 71, 71);
+    font-size: 17px;
+    text-align: left;
+    letter-spacing: 2px;
+    padding-left: 30px;
+}
+.gallery-footer{
+    display: flex;
+    padding: 50px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-align: center;
+    background-color: rgb(144, 196, 101);    
+}
+.gallery-footer1 i{
+    color: white;
+}
+.gallery-footer1 h3{
+    font-size: 24px;
+    padding: 10px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.gallery-footer1 p{
+    font-size: 25px;
+    color: white;
+    font-weight: 500;
+}
+/* here ends css for gallery */
+
+/* here starts css for feature */
+.feature{
+    padding: 40px;
+}
+.feature1{
+    display: flex;
+    padding: 50px;
+    align-items: center;
+}
+.feature-para p{
+    color:rgb(71, 71, 71);
+    font-size: 17px;
+    text-align: right;
+    padding: 20px;
+    letter-spacing: 2px;
+}
+.feature-para1 h3{
+    color: yellowgreen;
+    font-size:22px;
+    letter-spacing: 1px;
+}
+.feature-para1 h1{
+    letter-spacing: 1px;
+    font-size: 38px;
+    font-weight: 500;
+}
+.feature2{
+    display: flex;
+    width: 100%;
+    height: 500px;
+}
+.feature-img img{
+    width:85%;
+    height: 450px;
+    padding-left:40px;
+}
+.feature-content{
+    height: 450px;
+}
+.feature-content1, .feature-content2, .feature-content3{
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    border: 2px white;
+    box-shadow: 0 0 10px 0.5px rgb(14, 13, 13, 0.5);
+    margin: 12px;
+}
+.feature-icon{
+    padding: 40px;
+    margin: 10px;
+}
+.feature-heading{
+    padding: 20px;
+}
+.feature-heading h2{
+    color: yellowgreen;
+    padding: 5px;
+    font-size: 24px;
+    font-weight:600;
+}
+.feature-heading p{
+    padding: 10px;
+    color:rgb(71, 71, 71);
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+/* here ends css for feature */
+
+/* here starts css for price */
+.price{
+    background-image: url('images/foggy-24.png  ');
+    background-repeat: no-repeat;
+    height: 800px;
+    background-size: cover;
+    padding: 30px;
+}
+.price1{
+    display: flex;
+    padding: 30px;
+    align-items: center;
+}
+.price-para{
+    text-align: left;
+    padding-left: 400px;
+}
+.price-para h3{
+    color: yellowgreen;
+    font-size:22px;
+    letter-spacing: 1px;
+    text-align: right;
+}
+.price-para h1{
+    letter-spacing: 1px;
+    font-size: 37px;
+    font-weight: 500;
+    color: white;
+}
+.price-para1 p{
+    color:rgb(71, 71, 71);
+    font-size: 17px;
+    text-align: left;
+    letter-spacing: 2px;
+    padding-left: 30px;
+}
+.price2{
+    display: flex;
+    justify-content: space-evenly;
+}
+.price-content{
+    background-color:white;
+    padding: 20px;
+    text-align: center;
+}
+.price-content h2{
+    color:rgb(111, 161, 35);
+    font-size: 24px;
+}
+.price-content p{
+    padding: 10px;
+    color:rgb(71, 71, 71);
+}
+.price-content button{
+    border-radius: 25px;
+    background-color:rgb(151, 201, 77) ;
+    color: white;
+    padding: 15px;
+    letter-spacing: 2px;
+    font-size: 16px;
+    border: none;
+}
+/* here ends css for price */
+
+/* here starts css for client */
+.client{
+    padding: 60px;
+    height: 650px;
+}
+.client1{
+    display: flex;
+    padding: 50px;
+    align-items: center;
+}
+.client-para{
+    color:rgb(71, 71, 71);
+    font-size: 17px;
+    text-align: right;
+    padding: 20px;
+    letter-spacing: 2px;
+}
+.client-para1 h3{
+    color: rgb(111, 161, 35);
+    font-size: 23px;
+}
+.client-para1 h1{
+    letter-spacing: 1px;
+    font-size: 39px;
+    font-weight: 500;
+}
+.client2{
+    display: flex;
+    justify-content:space-around;
+    padding: 40px;
+}
+.client-img img{
+    width:30%;
+    border: double;
+}
+.client-name h3{
+    color: rgb(111, 161, 35);
+    font-size: 22px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.client-name h5{
+    font-size: 19px;
+    font-weight: 100;
+    padding-bottom: 10px;
+}
+.client-name p{
+    color:rgb(71, 71, 71);
+    letter-spacing: 1px;
+    font-size: 17px;
+}
+/* here ends css for client */
+
+/* here starts css for vol */
+#vol{
+    padding: 40px;
+}
+.vol1{
+    display: flex;
+    padding: 30px;
+    align-items: center;
+}
+.vol-para{
+    color:rgb(71, 71, 71);
+    font-size: 17px;
+    text-align: right;
+    padding: 20px;
+    letter-spacing: 2px;
+}
+.vol-para1 h3{
+    color: rgb(111, 161, 35);
+    font-size: 23px;
+}
+.vol-para1 h1{
+    letter-spacing: 1px;
+    font-size: 39px;
+    font-weight: 500;
+}
+.vol2{
+    display: flex;
+    justify-content: space-evenly;
+}
+.vol-content1{
+    text-align: center;
+}
+.vol-img img{
+    width:80%;
+}
+.vol-client h4{
+    color:rgb(111, 161, 35);
+    padding: 10px;
+    font-size: 24px;
+}
+.vol-client p{
+    font-weight: 100;
+    font-size: 19px;
+    padding: 5px;
+}
+.vol-icon{
+    padding: 10px;
+   
+}
+.vol-icon i{
+    color: white;
+    background-color: black;
+    padding: 10px;
+    border-radius: 30px;
+    margin: 5px ;
+}
+/* here ends css for vol */
+
+/* here starts css for blog */
+.blog{
+    background-image: url('images/2557701.jpg     ');
+    background-repeat: no-repeat;
+    height: 800px;
+    background-size: cover;
+    padding: 40px;
+}
+.blog1{
+    display: flex;
+    padding: 50px;
+    align-items: center;
+}
+.blog-para{
+    text-align: justify;
+    padding-left: 400px;
+}
+.blog-para h3{
+    color: white;
+    font-size:22px;
+    letter-spacing: 1px;
+    text-align: right;
+}
+.blog-para h1{
+    letter-spacing: 1px;
+    font-size: 37px;
+    font-weight: 500;
+}
+.blog-para1 p{
+    color:rgb(71, 71, 71);
+    font-size: 17px;
+    text-align: left;
+    letter-spacing: 2px;
+    padding-left: 30px; 
+} 
+.blog2{
+    display: flex;
+    padding: 30px;
+    justify-content: space-evenly;
+}
+.blog-content1{
+    background-color: white;
+    padding: 20px;
+    margin: 10px;
+}
+.blog-img img{
+    width: 99%;
+    height: 250px;
+    align-items: center;
+} 
+.blog-content h5{
+    font-size: 18px;
+    font-weight: 100;
+    padding:10px 0 10px 0;
+}
+.blog-content h3{
+    color:rgb(111, 161, 35);
+    font-size: 22px;
+    padding:0 0 10px 0;
+}
+.blog-content p{
+    color:rgb(71, 71, 71);
+    letter-spacing: 1px;
+    font-size: 16px;
+}
+.blog-time{
+    display: flex;
+    justify-content: space-between;
+}
+.blog-tag p{
+    padding-right: 100px;
+}
+/* here ends css for blog */
+
+/* here starts css for contact */
+#contact{
+    padding: 60px;
+}
+.contact1{
+    display: flex;
+    padding: 20px;
+    align-items: center;
+}
+.contact-para p{
+    color:rgb(71, 71, 71);
+    font-size: 17px;
+    text-align: right;
+    padding: 20px;
+    letter-spacing: 2px;
+}
+.contact-para1 h3{
+    color: rgb(111, 161, 35);
+    font-size: 23px;
+}
+.contact-para1 h1{
+    letter-spacing: 1px;
+    font-size: 39px;
+    font-weight: 500;
+}
+.contact2{
+    display: flex;
+    align-items: center;
+    
+    justify-content: space-evenly;
+    padding: 20px;
+}
+#contact-form{
+    padding: 30px;
+   
+}
+#name:focus{
+    border:2px solid lightblue;
+    outline: none;
+}
+#name{
+    padding: 10px;
+    width: 100%;
+}
+#email:focus{
+    border:2px solid lightblue;
+    outline: none;
+}
+#email{
+    padding: 10px;
+    width: 100%;
+}
+#phone:focus{
+    border:2px solid lightblue;
+    outline: none;
+}
+#phone{
+    padding: 10px;
+    width: 100%;
+}
+#message:focus{
+    border:2px solid lightblue;
+    outline: none;
+
+}
+#message{
+    padding: 10px;
+    width: 100%;
+}
+#send{
+    padding: 10px;
+    width: 100%;
+    border-radius: 20px;
+    color: white;
+    background-color: rgb(141, 197, 56);
+    border: none;
+}
+.contact-info{
+    padding: 30px;
+}
+.contactinfo-icon{
+    padding: 40px;
+}
+.contact-info1{
+    display: flex;
+    padding: 30px;
+    align-items: center;
+    justify-content: space-between;
+}
+.contactinfo-content h6{
+    color: rgb(111, 161, 35);
+    font-size: 23px;
+    padding: 10px;
+    text-align: left;
+}
+/* here ends css for contact */
+
+/* here starts css for map */
+.map iframe{
+    width: 100%;
+    height: 200px;
+}
+/* here ends css for map */
+
+/* here starts css for footer */
+.footer{
+    text-align: center;
+    height: 150px;
+    padding: 30px;
+    background-color:rgb(140, 194, 60);
+}
+.footer-icon{
+    padding: 20px;
+}
+/* here ends css for footer */
